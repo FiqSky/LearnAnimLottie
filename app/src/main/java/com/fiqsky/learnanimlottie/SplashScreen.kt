@@ -8,7 +8,7 @@ import android.os.Handler
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {
 
-    private var timeOut: Long = 6000
+    private var timeOut: Long = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
