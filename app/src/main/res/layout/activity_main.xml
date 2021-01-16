@@ -20,21 +20,20 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView3"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
         app:lottie_rawRes="@raw/lovebutton" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView4"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView3"
+        app:layout_constraintStart_toEndOf="@+id/lottieAnimationView3"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
         app:lottie_rawRes="@raw/switchnightmode" />
 
